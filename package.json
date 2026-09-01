@@ -1,0 +1,23 @@
+{
+  "name": "learning_typescript",
+  "version": "1.0.0",
+  "description": "Learning TypeScript Basics",
+  "main": "index.js",
+  "scripts": {
+    "ts": "tsx"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@types/node": "^22.0.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^7.0.2"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}
