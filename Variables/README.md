@@ -29,7 +29,8 @@ in TS there are 3 variables - var, let, const
     a. number type supports decimal & whole numbers
     b. string can be used using '' or "" or `` in TS
 
-2. `any` - can be used when we are unaware of type. It supports all datatypes
+2. `any` - 
+    It supports all datatypes.  If we do not know what data type an element will return then we should use `unknown` instead of any. (The unknown type is the safest alternative to any in TS)
 
 3. `Union` - it is used when we are using multiple datatype for single variable 
     [Eg. const number | string | boolean = 22.34]
