@@ -39,5 +39,10 @@ in TS there are 3 variables - var, let, const
 
 5. `void` - written with functions when that function doesn't returns any value
 
-6. `typeof` - helps to give which datatype used
+6. `bigInt` - 
+    works with extremely large whole numbers that are too big for the standard number data type to handle safely. It can hold numbers as large as your computer's memory allows. 
+    [Eg. let anotherLargeNumber: bigint = BigInt("9007199254740991");]
+    [Eg. let largeNumber: bigint = 9007199254740991n;]
+
+7. `typeof` - helps to give which datatype used
     [Eg. console.log(typeof a);]
