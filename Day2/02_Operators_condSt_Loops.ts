@@ -1,4 +1,33 @@
 
+/**
+ * ============================================================================
+ * DAY 2: OPERATORS, CONTROL FLOW & LOOPS IN TYPESCRIPT
+ * ============================================================================
+ * Domain Example: Banking Loan Processing System
+ * 
+ * Overview:
+ * 1. Financial Calculation (Operators & Conditional Statements)
+ *    - Calculates processing fees based on account status (if-else)
+ *    - Evaluates loan risk level using a ternary operator (? :)
+ * 
+ * 2. Repayment Schedule Breakdown (For Loop)
+ *    - loan tenure to track monthly balance deductions (-=)
+ * 
+ * 3. Credit Verification (While Loop)
+ *    - retry attempts for fetching dummy credit reports
+ * 
+ * 4. Eligibility (Nested If-Else & Logical Operators)
+ *    - Enforces age and financial rules using logical AND (&&) and OR (||).
+ * 
+ * 5. Authentication (Do-While Loop)
+ *    - Executes OTP verification retries
+ * 
+ * 6. Alternative Product Routing (Switch-Case & Break)
+ *    - Routes non-eligible applicants to secondary options (Gold Loan, Bank FD)
+ * ============================================================================
+ */
+
+
 let hasBankAccount:boolean = false;                                                         // checking if customer has savings account in bank in which apply loan
 const loanAmount:number = 50000;
 let interestRate:number = 0.14;
@@ -93,6 +122,4 @@ else {                                                                          
         break;                                                                              // break st. used to stop further execution
         default : console.log ("Alternate loan eligibility not found");
         }
-}                              
-
-
+}
