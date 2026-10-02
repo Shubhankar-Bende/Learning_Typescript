@@ -16,7 +16,7 @@
 
     3.  Functions:
         Writing `named, arrow, anonymous` functions and `optional & default & rest` parameters and Callback function and Function overloading.
-        **Folder Name: [Coming Soon]**
+        Folder Name: [./Day3/03_functions.ts]
 
     4.  Array:
         Declaring & accessing arrays, Tuples, Array Methods (`push, pop, shift, unshift, slice, splice, map, filder, reduce, forEach, find, includes, some, every, flat, sort, join`)
