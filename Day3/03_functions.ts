@@ -56,9 +56,35 @@ if (loanStatus === "Customer is eligible for loan application") {            // 
     calculateTotalAmount (43000);                                            // default interest rate considered
     calculateTotalAmount (52000);                    
     calculateTotalAmount (68000, undefined, "Diwali10");                     // here we passed undefined because i want to consider interest rate based on our code logic
-    calculateTotalAmount (68000, 0.10, "Diwali50");                          // explicitly passed interest rate so TS will considered this new rate & not default one
+    calculateTotalAmount (81000, 0.10, "Diwali50");                          // explicitly passed interest rate so TS will considered this new rate & not default one
 }
 
-// Rest Parameter
-console.log("===============================================");
 
+// Rest Parameter > for checking customer bank transaction & total amount spent
+console.log("===============================================");
+function customerTransactions (customerAccountNumber:number, ...accountTransactions:number[]): string {
+
+    let amountSpent:number = 0;
+    let highAmount:number = 0;
+
+    for (let i:number = 0; i < accountTransactions.length; i++) {                   // for loop - used for account transaction indexing
+        amountSpent = amountSpent + accountTransactions[i];
+
+        if (accountTransactions[i] >=  10000) {                                     // here we are checking how many transactions customer does upon specific limit
+        highAmount++                                                        
+        }
+
+    }
+        
+    console.log(`Account Number: "${customerAccountNumber}" did "${accountTransactions.length}" transactions having sum of Rs. ${amountSpent} and high value transaction found "${highAmount}"\n`);
+    return `Account: ${customerAccountNumber} | Count: ${accountTransactions.length} | Total: Rs.${amountSpent} | High Value: ${highAmount}`;
+}
+
+customerTransactions (1234567, 5200, 5000, 34000, 28000);
+customerTransactions (7867868767, 200, 500, 8000, 12000);
+customerTransactions (56756757);                                                       // when we pass nothing then default values will be shown
+//customerTransactions (1234567, 5200, 5000, 34000, 28000);                           // function has no memory to store past things due to which here i have passed duplicate account number and got fresh output for this even when it was passed earlier 
+
+
+// Overloading Function and Arrow Function
+console.log("===============================================");
