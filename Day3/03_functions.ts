@@ -88,3 +88,10 @@ customerTransactions (56756757);                                                
 
 // Overloading Function and Arrow Function
 console.log("===============================================");
+function loanDisbursement (principalAmount: number, processingFees:number):number;
+function loanDisbursement (otherDeduction:number):number;
+
+function loanDisbursement (amount:number, processingFees?:number):number {
+
+    
+}

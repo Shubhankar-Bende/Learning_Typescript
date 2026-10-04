@@ -56,27 +56,27 @@
 # Parameters
 - Function Parameters are declared inside the function and they act as placeholders (variable) for the input that function will recieve. The input to functional parameters (real value) is known as "Arguments".
   ```typescript
-  function Country (x: string, y: string) {} // x, y         ---> functional parameters
-  Country ("Asia", "India");                 // Asia, India   ---> arguments
+  function Country (x: string, y: string) {}        // x, y         ---> functional parameters
+  Country ("Asia", "India");                        // Asia, India   ---> arguments
 - "Rest, Optional and Default Parameters" are types of parameters.
 - Parameters helps us in write code once and run it multiple times with different inputs which enables different output/actions based on our inputs.
 
 1. **Rest Parameters** - 
-    a. Rest parameters allows a function to accept indefinite number of arguments and bundle them up into a single array i.e the type should always be an array (Eg. string[])
-    b. Function can have only "one" rest parameter.
-    c. Syntax: `` Prefix the last parameters with three dots (...args) ``
+    - Rest parameters allows a function to accept indefinite number of arguments and bundle them up into a single array i.e the type should always be an array (Eg. string[])
+    - Function can have only "one" rest parameter.
+    - Syntax: `` Prefix the last parameters with three dots (...args) ``
 
 2. **Optional Parameters** - 
-    a. This are optional to pass in arguments i.e user can choose whether to supply that argument. If not supplied, its runtime value inside the function becomes "undefined".
-    b. Optional parameters should be defined after required parameters.
-    c. Syntax: `` Add ? after a parameter (Eg. function (a:number, b?:string)) ``
+    - This are optional to pass in arguments i.e user can choose whether to supply that argument. If not supplied, its runtime value inside the function becomes "undefined".
+    - Optional parameters should be defined after required parameters.
+    - Syntax: `` Add ? after a parameter (Eg. function (a:number, b?:string)) ``
 
 3. **Default Parameters** - 
-    a. When we pass a value for a parameter while initializing then its called default parameter. Value is automatically used if the caller omits the argument or explicitly passes undefined
-    b. Using default parameters automatically makes that parameter optional, meaning you do not need to use the ? optional modifier.
-    c. Default parameters should be placed at the end of our parameter list (after required parameters). If we place a default parameter before a required parameter, then we are forced to explicitly pass undefined to skip it and hit the default behavior.
-    d. Syntax: `` While initializing use   = value ``
+    - When we pass a value for a parameter while initializing then its called default parameter. Value is automatically used if the caller omits the argument or explicitly passes undefined
+    - Using default parameters automatically makes that parameter optional, meaning you do not need to use the ? optional modifier.
+    - Default parameters should be placed at the end of our parameter list (after required parameters). If we place a default parameter before a required parameter, then we are forced to explicitly pass undefined to skip it and hit the default behavior.
+    - Syntax: `` While initializing use   = value ``
 
 # Return Type -
-    a. Return statement is used when we want to store a value into another variable apart from where it was declared.
-    b. If we want to print a statement then return type is not required as printing statement happens irrespective of returntype.
+  - Return statement is used when we want to store a value into another variable apart from where it was declared.
+  - If we want to print a statement then return type is not required as printing statement happens irrespective of returntype.
