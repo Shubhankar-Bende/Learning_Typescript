@@ -88,10 +88,28 @@ customerTransactions (56756757);                                                
 
 // Overloading Function and Arrow Function
 console.log("===============================================");
+let loanPrincipal = 100000;
 function loanDisbursement (principalAmount: number, processingFees:number):number;
 function loanDisbursement (otherDeduction:number):number;
 
 function loanDisbursement (amount:number, processingFees?:number):number {
 
-    
+    const subtract = (base:number,deduction:number):number => base - deduction;                     // Arrow function used here for handling single point math calculation instead of writing same code multiple times
+
+    if (processingFees !== undefined) {
+       const finalPayout = subtract(amount, processingFees);
+        console.log(`Loan Principal: ${loanPrincipal}`);
+        console.log(`Deduction: ${amount}`);
+        console.log(`Final Payout Amount: ${finalPayout}\n`);
+       return finalPayout;
+    }
+
+    const finalDisbursement = subtract(loanPrincipal, amount);
+    console.log(`Base Loan: ${loanPrincipal}`);
+    console.log(`Deduction: ${amount}`);
+    console.log(`Net Disbursed Amount: ${finalDisbursement}`);
+    return finalDisbursement;
 }
+
+loanDisbursement (500000, 530);
+loanDisbursement (1400);
