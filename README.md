@@ -20,7 +20,7 @@
 
     4.  Array:
         Declaring & accessing arrays, Tuples, Array Methods (`push, pop, shift, unshift, slice, splice, map, filder, reduce, forEach, find, includes, some, every, flat, sort, join`)
-        **Folder Name: [Coming Soon]**
+        Folder Name: [./Day4/04_Array.ts]
 
     5.  String:
         String Methods like `subString, substr, slice, indexOf, includes, replace, split, trim` and string immutability.
