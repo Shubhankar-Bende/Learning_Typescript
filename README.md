@@ -19,7 +19,7 @@
         Folder Name: [./Day3/03_functions.ts]
 
     4.  Array:
-        Declaring & accessing arrays, Tuples, Array Methods (`push, pop, shift, unshift, slice, splice, map, filder, reduce, forEach, find, includes, some, every, flat, sort, join`)
+        Declaring & accessing arrays, Tuples, Array Methods (`push, pop, shift, unshift, slice, splice, map, filter, reduce, forEach, find, includes, some, every, flat, sort, join`)
         Folder Name: [./Day4/04_Array.ts]
 
     5.  String:
