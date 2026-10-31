@@ -1,6 +1,6 @@
-## Topic 06: FUNCTIONS
+# ============== Topic 06: FUNCTIONS ==============
 
-# Key Learnings:
+## Key Learnings:
 
 1. **Named Function:**
    - A function declared with a explicit name (Eg. `function Country {}`)

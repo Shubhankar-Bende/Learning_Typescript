@@ -1,6 +1,6 @@
-##  ======= Topic 01: VARIABLES =========
+#  ============== Topic 01: VARIABLES ==============
 
-# Key Learnings:
+## Key Learnings:
 1. **variables:**
 in TS there are 3 variables - var, let, const
 
@@ -23,8 +23,9 @@ in TS there are 3 variables - var, let, const
     `var` can be access without declaring bt will give undefined as o/p. `let + const` cannot be access without declaring will throw exception error.
 
 
-##  ======= Topic 02: DATATYPES =========
-# Key Learnings:
+#  ============== Topic 02: DATATYPES ==============
+
+## Key Learnings:
 1. `number, string, boolean` - are main datatypes in TS. 
     a. number type supports decimal & whole numbers
     b. string can be used using '' or "" or `` in TS

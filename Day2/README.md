@@ -1,6 +1,6 @@
-##  ======= Topic 03: OPERATORS =========
+#  ============== Topic 03: OPERATORS ==============
 
-# Key Learnings:
+## Key Learnings:
 1. **Arithmetic Operators:**
     - Arithmetic operators are used for doing basic mathematic calculations. 
     - (+, -, *, /, %, **) are arithmetic operators.
@@ -31,8 +31,10 @@
     - It is shortcut to write "if...else" statement. 
     - Syntax:-       `Condition  ?  expression_if_true   :   expression_if_false`
 
-##  ======= Topic 04: CONDITIONAL STATEMENTS =========
-# Key Learnings:
+
+#  ============== Topic 04: CONDITIONAL STATEMENTS ==============
+
+## Key Learnings:
 
 1. **if Statement:**
     - Statement in block will execute only when condition is true otherwise it will skipped.
@@ -64,8 +66,10 @@
     }
     ```
 
-##  ======= Topic 05: LOOPS =========
-# Key Learnings:
+
+#  ============== Topic 05: LOOPS ==============
+
+## Key Learnings:
 
 1. **while Loop:**
     - Executes as long as condition is true, once at any point if condition gets false then only loop will stop.
@@ -80,8 +84,8 @@
     - we use for loop when we know for how many max. time the block will be executed i.e no. of iterations are known already accordingly we set condition.
     - Syntax:    `for (initialisation ; condition ; increment/decrement) {}`
 
-# Break Statment: 
+## Break Statment: 
     Break statement exits the loop immediately, once break is executed the loop terminates and code continues executing after the loop.
 
-# Continue Statment:
+## Continue Statment:
     Continue statement is used when we want to ignore specific items in a collection while keeping the loop running for the remaining items.

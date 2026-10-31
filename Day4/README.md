@@ -1,7 +1,7 @@
 
-## Topic 07: ARRAY & ARRAY METHODS
+# ============== Topic 07: ARRAY & ARRAY METHODS ==============
 
-# Key Learnings:
+## Key Learnings:
 
 1. **Array:**
     - An ordered collection of items stored sequentially under a single variable name.
