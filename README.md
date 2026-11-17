@@ -24,7 +24,7 @@ Click into any folder to view the source code and specific learning notes:
 
 5.  **String:**
     String Methods like `subString, substr, slice, indexOf, includes, replace, split, trim` and string immutability.
-    Folder Name: [./Day4/05_String.ts]
+    Folder Name: [./Day5/05_String.ts]
 
 6.  **Objects:**
     Object creation using object type, inline type, type alias, classes.
