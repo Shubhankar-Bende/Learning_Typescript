@@ -28,7 +28,7 @@ Click into any folder to view the source code and specific learning notes:
 
 6.  **Objects:**
     Object creation using object type, inline type, type alias, classes.
-    **Folder Name: [Coming Soon]**
+    Folder Name: [./Day6/06_Objects.ts]
 
 7.  **Classes:**
     Creating classes, readonly properties, static variables & static methods and Method overloading.
