@@ -27,12 +27,12 @@ Click into any folder to view the source code and specific learning notes:
     Folder Name: [./Day5/05_String.ts]
 
 6.  **Objects:**
-    Object creation using object type, inline type, type alias, classes.
+    Object creation using `object type, inline type, type alias, classes`.
     Folder Name: [./Day6/06_Objects.ts]
 
 7.  **Classes:**
     Creating classes, readonly properties, static variables & static methods and Method overloading.
-    **Folder Name: [Coming Soon]**
+    Folder Name: [./Day7/07_Classes.ts]
 
 8.  **Inheritance and Access Controls:**
     Method overriding, extends & super keyword and access modifiers (`public, private, protected`).
